@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Attributes</title>
+</head>
+<body>
+  <h1>Supported Attributes for &quot;area&quot;:</h1>
+  <ul>
+    <li>alt</li>
+    <li>href</li>
+    <li>target</li>
+    <li>rel</li>
+    <li>media</li>
+    <li>hrefflang</li>
+    <li>type</li>
+    <li>shape</li>
+    <li>coords</li>
+  </ul>
+  <hr>
+  <h1>Two paragraphs with the same ID:</h1>
+  <p id="test1"> At Microsoft Build, held earlier this month, Alex Kipman previewed 
+    Windows Mixed Reality developer kits for the new headsets from Acer 
+    and HP. The Acer Windows Mixed Reality Headset Developer Edition 
+    is available for US$299, while the HP Windows Mixed Realty Developer 
+    Edition is available for $329.
+  </p>
+  <p id="test1"> Both devices use inside-out tracking, which negates the need 
+    for IR emitters or external cameras. Developers can begin to code 
+    immediately with a Windows 10 Creator's Update PC and a headset right out 
+    of the box.
+  </p>
+  <h2>Results:</h2>
+  <p> Chrome displayed both paragraphs and gave no errors. W3C on the other hand
+    , gave me and error for duplicated IDs and a Warning with line &amp column where
+    the duplicated ID appeared for the first time.
+  </p>  
+  <hr>
+  <h1>SRC Attribute:</h1>
+  <p> Contains a valid non-empty URL potentially surrounded by spaces to specify 
+    the source
+  </p> 
+  <h2>Elements:</h2>
+  <ul>
+    <li>audio</li>
+    <li>embed</li>
+    <li>iframe</li>
+    <li>img</li>
+    <li>input</li>
+    <li>script</li>
+    <li>source</li>
+    <li>track</li>
+    <li>video</li>
+  </ul>
+  <hr>
+  <h1 title="Activity List">List starting at 11</h1>
+  <ol start="11">
+    <li>Charlotte Hornets</li>
+    <li>New York Knicks</li>
+    <li>Orlando Magic</li>
+    <li>Philadelphia Sixers</li>
+    <li>Brooklyn Nets</li>
+  </ol>
+  <h2 title="Reversed Activity List">Reversing</h2>
+  <ol reversed start="11">
+    <li>Charlotte Hornets</li>
+    <li>New York Knicks</li>
+    <li>Orlando Magic</li>
+    <li>Philadelphia Sixers</li>
+    <li>Brooklyn Nets</li>
+  </ol>
+    <hr>
+</body>
+</html>
